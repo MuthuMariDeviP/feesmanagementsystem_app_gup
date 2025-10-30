@@ -5,7 +5,7 @@ import os
 import segno
 import tempfile
 from io import BytesIO
-from xhtml2pdf import pisa
+import pisa
 import base64
 
 # ---------------------- CONFIG / PATHS ----------------------
@@ -607,3 +607,4 @@ else:
     else:
         st.session_state.page = "home"
         home_page()
+
